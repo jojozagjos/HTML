@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
 }
 
 body {
@@ -14,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 30px 20px;
     background-color: #f8f8f8;
 }
 
@@ -44,7 +43,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;
-    background-color: #f0f0f0;
+    background-image: url("Images/triangles_pattern.webp");
     text-align: center;
 }
 
@@ -89,7 +88,7 @@ nav ul li a {
     width: 100%;
     border-radius: 8px;
     height: 75vh;
-    object-fit: fill;
+    /* object-fit: contain; */
 }
 
 .category .fresh {
